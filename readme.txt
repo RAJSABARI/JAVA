@@ -1,3 +1,3 @@
-Begining of Java to DSA , Problem solving , Leetcode sums with Link 
-Etc...in java
+This Repositories maily fouced on Basics of java to DSA + problem solving + Leetcode sumes 
+Learning is step up step process Starting from beggining!
 
