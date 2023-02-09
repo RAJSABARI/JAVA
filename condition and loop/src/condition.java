@@ -21,14 +21,13 @@ public class condition {
 //
 
     public static void main(String[] args) {
-        int salary= 25400;
-        if(salary>10000){
-            salary=salary+1000;
+        int salary = 25400;
+        if (salary > 10000) {
+            salary = salary + 1000;
+        } else {
+            salary = salary + 1234;
         }
-        else {
-            salary=salary+1234;
-        }
-        System.out.println("Your salary is "+  salary);
+        System.out.println("Your salary is " + salary);
 
     }
 }
