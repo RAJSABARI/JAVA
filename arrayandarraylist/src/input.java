@@ -2,7 +2,7 @@ import java.util.*;
 
 public class input {
     public static void main(String[] args) {
-    //     Scanner in = new Scanner(System.in);
+  //     Scanner in = new Scanner(System.in);
  //        int input = in.nextInt();
 //        int size[]= new int[input];
 //        for(int i =0;i<size.length;i++){
