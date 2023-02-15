@@ -1,6 +1,6 @@
 import java.util.Arrays;
 import java.util.*;
-
+//Sorting the array 
 public class sorting {
     public static void main(String[] args) {
         //int arr[] = {11, 22, 55, 66, 44};
