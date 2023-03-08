@@ -1,0 +1,32 @@
+https://leetcode.com/problems/merge-sorted-array/
+---------------------------------------------------------------------
+class Solution {
+    public void merge(int[] nums1, int m, int[] nums2, int n) {
+       int l=nums1.length+nums2.length;
+       int []arr=new int[l];
+       for(int i=0;i<nums1.length;i++){
+           arr[i]=nums1[i];
+           /// System.out.println(Arrays.toString(arr));
+       }
+       int u=0;
+       for(int j=nums1.length;j<l;j++){
+           arr[j]=nums2[u];
+           u++;
+       ///  System.out.println(Arrays.toString(arr));
+       }
+       Arrays.sort(arr);
+      System.out.println(Arrays.toString(arr));
+    int z=0;
+    int []temp= new int[nums1.length];
+  for(int k=0;k<arr.length;k++){
+      if(arr[k]!=0){
+        temp[z]=arr[k];
+        z++;
+      }
+  }
+  for(int x=0;x<nums1.length;x++){
+      nums1[x]=temp[x];
+  }
+  Arrays.sort(nums1);
+}
+}
